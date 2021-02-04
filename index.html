@@ -27,26 +27,26 @@
   <div class="container">
 
     <div class="row" >
-      <div class="col-3 card" style="background-color:#636060c4;" >
+      <div class="d-sm-block col-3 card" style="background-color:#636060c4;" >
         <img class="img-fluid" src="img/hospital.jfif" alt=""><br>
         <hr>
         <button type="button" id="btnGestHospitals" class="btn btn-warning">Hospital</button>
       </div>
 
-      <div class="col-3 card" style="background-color:#636060c4;" >
+      <div class="d-sm-block col-3 card" style="background-color:#636060c4;" >
         <img class="img-fluid" src="img/pacients.jpg" alt="" >
         <hr>
         <button type="button" id="btnGestPacients" class="btn btn-danger">Pacients</button>
       </div>
 
 
-      <div class="col-3 card" style="background-color:#636060c4;" >
+      <div class="d-sm-block col-3 card" style="background-color:#636060c4;" >
         <img class="img-fluid" src="img/enfermetats.jpg" alt=""><br>
         <hr>
         <button type="button" id="btnGestMalalties" class="btn btn-light">Malalties</button>
       </div>
 
-      <div class="col-3 card" style="background-color:#636060c4;" >
+      <div class="d-sm-block col-3 card" style="background-color:#636060c4;" >
         <img class="img-fluid" src="img/metges.jpg" alt=""><br>
         <hr>
         <button type="button" id="btnGestMetges" class="btn btn-secondary">Metges</button>
@@ -57,10 +57,50 @@
 
         <div id="divPresentacio">
           <br><br>
-          <h5>Benvigut a l'aplicació de gestió Sanitària</h4>
-            <p>Amb els botons del panell lateral, podràs accedir a tots els menus!</p>
+          <h5 class=" d-none d-sm-none d-md-block">Benvigut a l'aplicació de gestió Sanitària</h4>
+            <p class="d-none d-sm-none d-md-block">Amb els botons del panell lateral, podràs accedir a tots els menus!</p>
         </div>
-
+        <div class="container">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+        
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+           
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="text-center d-none d-sm-none d-md-block carousel-inner ">
+              <div class="carousel-item active">
+                <a target="blank" href="https://ginebro.clickedu.eu/user.php?action=login"> <img class="w-50"  src="img/hospital.jfif" alt="Los Angeles"></a>
+              </div>
+              <div class="carousel-item">
+                <a target="blank" href="https://ginebro.clickedu.eu/user.php?action=login"> <img class="w-50" src="img/pacients.jpg" alt="Chicago"></a>
+              </div>
+              <div class="carousel-item">
+                <a target="blank" href="https://ginebro.clickedu.eu/user.php?action=login"> <img class="w-75"  src="img/enfermetats.jpg" alt="New York"></a>
+              </div>
+              <div class="carousel-item">
+                <a target="blank" href="https://ginebro.clickedu.eu/user.php?action=login"><img class="w-50"  src="img/metges.jpg" alt="New"> </a>
+              </div>
+            </div>
+            
+          
+            <!-- Left and right controls -->
+            <a class="bg-dark carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="bg-dark carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+        
+        
+          </div>
 
 </body>
 
